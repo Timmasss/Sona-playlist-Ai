@@ -1,2 +1,95 @@
-# Sona-playlist-Ai
-Ai Bot 
+# 🎵 Sona — AI Music Bot
+
+> Your personal AI music companion that feels your mood.
+
+Sona is a Telegram bot that generates Spotify playlists based on your mood, 
+the weather outside, and the time of day. Powered by Groq AI and Whisper.
+
+---
+
+## ✨ Features
+
+- 🧠 **AI-powered** — understands your mood in any language
+- 🎙️ **Voice input** — just speak how you feel
+- 🌤️ **Weather-aware** — considers current weather conditions
+- 🕐 **Time-aware** — adapts to morning, evening or night
+- 👍👎 **Taste memory** — learns what you like and dislike
+- 🎯 **50 tracks** — generates a full playlist instantly
+- 🔄 **Auto-refresh** — replaces playlist every time
+
+---
+
+## 🛠️ Tech Stack
+
+- **Python 3.9+**
+- **aiogram** — Telegram bot framework
+- **spotipy** — Spotify API
+- **Groq API** — AI (llama-3.3-70b)
+- **Whisper** — voice recognition
+- **OpenWeatherMap** — weather data
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repo
+git clone https://github.com/YOUR_USERNAME/sona-bot.git
+cd sona-bot
+
+### 2. Create virtual environment
+python3 -m venv venv
+source venv/bin/activate
+
+### 3. Install dependencies
+pip install spotipy aiogram groq openai-whisper google-genai requests
+
+### 4. Add your API keys in bot.py
+TELEGRAM_TOKEN = "your_token"
+GROQ_API_KEY = "your_key"
+SPOTIFY_CLIENT_ID = "your_id"
+SPOTIFY_CLIENT_SECRET = "your_secret"
+WEATHER_API_KEY = "your_key"
+
+### 5. Run
+python3 bot.py
+
+---
+
+## 📱 How to use
+
+1. Open Telegram → find your bot → /start
+2. Set your Spotify playlist:
+   /setplaylist https://open.spotify.com/playlist/YOUR_ID
+3. Type or voice your mood:
+   "sad rainy night" or "hyped morning energy"
+4. Get your playlist instantly 🎯
+
+---
+
+## 🔑 Required API Keys
+
+| Service | Link | Free |
+|---|---|---|
+| Telegram Bot | @BotFather | ✅ |
+| Spotify API | developer.spotify.com | ✅ |
+| Groq API | console.groq.com | ✅ |
+| OpenWeatherMap | openweathermap.org | ✅ |
+
+---
+
+## 🗺️ Roadmap
+
+- [ ] Daily auto-playlist every morning
+- [ ] Multi-user Spotify OAuth
+- [ ] Web dashboard
+- [ ] iOS / Android app
+
+---
+
+## 👤 Author
+
+Built by [@timmma](https://github.com/Timmasss)
+
+---
+
+⭐ Star this repo if you like it!
