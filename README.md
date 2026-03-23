@@ -31,30 +31,6 @@ the weather outside, and the time of day. Powered by Groq AI and Whisper.
 
 ---
 
-## 🚀 Getting Started
-
-### 1. Clone the repo
-git clone https://github.com/YOUR_USERNAME/sona-bot.git
-cd sona-bot
-
-### 2. Create virtual environment
-python3 -m venv venv
-source venv/bin/activate
-
-### 3. Install dependencies
-pip install spotipy aiogram groq openai-whisper google-genai requests
-
-### 4. Add your API keys in bot.py
-TELEGRAM_TOKEN = "your_token"
-GROQ_API_KEY = "your_key"
-SPOTIFY_CLIENT_ID = "your_id"
-SPOTIFY_CLIENT_SECRET = "your_secret"
-WEATHER_API_KEY = "your_key"
-
-### 5. Run
-python3 bot.py
-
----
 
 ## 📱 How to use
 
